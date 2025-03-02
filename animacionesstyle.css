@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #09090f;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el header */
+#header {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-image: url("img/Cafeteria_1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    position: relative;
+    padding: 10px 5%;
+}
+
+/* Navegación */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 125px;
+}
+header h1 {
+    text-align: center; /* Centrar el texto */
+    font-size: 2.5vw; /* Ajustar tamaño */
+    color: white; /* Mantener el color */
+    margin-top: 30px; /* Agrega espacio debajo */
+    margin-bottom:30px;
+}
+
+
+/* Texto de presentación */
+.header-text {
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+}
+
+.header-text h1 {
+    font-size: clamp(2rem, 2vw, 4rem);
+    line-height: 1.2;
+    color: white;
+    margin: auto;
+    display: inline-block;
+    max-width: 100%;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.header-text h1 span {
+    display: inline-block;
+    color: aqua;
+}
+
+
+
+/* Botón de volver */
+.btn-volver {
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid aqua;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.3s;
+}
+
+.btn-volver:hover {
+    background: rgba(0, 255, 255, 0.74);
+}
+
+/* Sección de animaciones */
+.animaciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.animacion {
+    background-color: #07070a;
+    padding: 15px;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: 0 0 10px rgba(127, 150, 255, 0.1);
+}
+
+.animacion img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.animacion p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ddd;
+}
+
+/* Footer / Copyright */
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #07070a;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.copyright i {
+    color: aqua;
+}
+
+.header-text h1 span {
+    display: inline-block;
+    color: aqua;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    .header-text {
+        margin-top: 15vh; /* Reduce el espacio en móviles */
+    }
+
+    .header-text h1 {
+        font-size: 6vw; /* Hace el texto más pequeño en móviles */
+    }
+    header h1 {
+        text-align: center; /* Centrar el texto */
+        font-size: 7vw; /* Ajustar tamaño */
+        color: white; /* Mantener el color */
+        margin-bottom: 30px; /* Agrega espacio debajo */
+    }
+    
+}
+
+/* Ocultar icono de menú en desktop */
+nav .fas {
+    display: none;
+}

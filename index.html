@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port Folio Luis Daniel Salas Soto - Roketz </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6b42d12f12.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <span class="fas fa-bars" onclick="openmenu()"></span>
+                <img src="img/Logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <span class="fas fa-times" onclick="closemenu()"></span>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1>Hello, I'm <span>Luis Daniel</span><br>alias <span>Roketz</span>.</h1>
+                <p>Ing.In animation And Visual Effects/3D Animator/3D Artist/Programmer</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/perfil.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me </h1>
+                    <p> I'm an engineer specializing in animation and visual effects, driven by a blend of creativity
+                        and technology. Defined by traits like helpfulness, tech-savviness, and a thirst for learning, I
+                        thrive on teamwork and mentoring aspiring talents in animation and VFX. Continuously exploring
+                        new tools and techniques—from animation and game programming to cinematography and color
+                        theory—I'm committed to excellence in every project, always eager to elevate my craft and
+                        collaborate for extraordinary results.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience', event)">Experience</p>
+                        <p class="tab-links" onclick="opentab('education', event)">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>3D Artist</span><br>Desing of 3D Models</li>
+                            <li><span>3D Animator and Rigging</span><br>Creation of Animation whit charaters and another things</li>
+                            <li><span>Developer of Videogames</span><br>Programming in Unity/Godot(Basic)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Empresa Punto y Línea </span><br>Design and Rendering of Bread Labels, Pages, and Product Renders</li>
+                            <li><span>Ai Lab School</span><br>Collaboration with AI Labschool on a Multiplayer Video Game (Still in Development)</li>
+                            <li><span>Zelcar Games</span><br>1 Year Creating Animations and Rigs for Fera Pets and Secret Forest</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>METROPOLITAN POLYTECHNIC UNIVERSITY OF HIDALGO</span><br>Certificate of Completion of Bachelor's Degree Studies in Animation and Visual Effects</li>
+                            <li><span>Harvard T.H. Chan</span><br>Certification in Entrepreneurship – International Program in Innovation & Sustainability<br><em>Transforma Hidalgo</em> | Mar 2021 - Dec 2021</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-blender"></i>
+                    <h2>Rigging 3D</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id magni alias sed, praesentium dolorem
+                        porro omnis iste magnam quasi vel quas nesciunt, eos, amet recusandae ratione error! Quasi,
+                        nulla
+                        voluptas.</p>
+                    <a href="Rigging_3D.html">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-pen-nib"></i>
+                    <h2>3D Desing</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id magni alias sed, praesentium dolorem
+                        porro omnis iste magnam quasi vel quas nesciunt, eos, amet recusandae ratione error! Quasi,
+                        nulla
+                        voluptas.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-film"></i>
+                    <h2>3D Animations</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id magni alias sed, praesentium dolorem
+                        porro omnis iste magnam quasi vel quas nesciunt, eos, amet recusandae ratione error! Quasi,
+                        nulla
+                        voluptas.</p>
+                    <a href="animaciones.html">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Animation/Leon_quimera.gif">
+                    <div class="layer">
+                        <h3>Rigging 3D</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, aut quos. Minus eum quia
+                            assumenda ex iure sapiente tempore, possimus tempora, magni cum reprehenderit esse laborum
+                            voluptas qui libero id!</p>
+                        <a href="Rigging_3D.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/FireExtinguisher_render.png">
+                    <div class="layer">
+                        <h3>3D Model Extintor</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, aut quos. Minus eum quia
+                            assumenda ex iure sapiente tempore, possimus tempora, magni cum reprehenderit esse laborum
+                            voluptas qui libero id!</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Animation/Dragon_azul_idle_fly_render.gif">
+                    <div class="layer">
+                        <h3>3D Animations</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, aut quos. Minus eum quia
+                            assumenda ex iure sapiente tempore, possimus tempora, magni cum reprehenderit esse laborum
+                            voluptas qui libero id!</p>
+                        <a href="animaciones.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1>
+                        <div class="sub-title">Contact Me</div>
+                    </h1>
+                    <p><i class="fas fa-paper-plane"></i> lxsalas79@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> 7761114272</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100006506328880"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/roketz79/"><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-tiktok"></i></a>
+                    </div>
+                    <a href="img/Curriculum_2023.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© Luis Daniel 2025 | 3D Artist || VideoGame Dveloper||3D Designer| <i class="fas fa-rocket"></i>
+                lxsalas79@gmail.com </p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname, event) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.left = "0";
+        }
+        function closemenu() {
+            sidemenu.style.left = "-200px";
+        }
+
+    </script>
+    <!--scroll-behaviour-smooth-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+    <!--scroll-behaviour-smooth-End-->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxx9mmTSYTUmBhV5aG_6cTaGm34gbgPsL78scg-ool0L9QY9aQJe47A-Sq6ufoGeEMljg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully! 🚀"
+            setTimeout(function(){
+                msg.innerHTML= ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+    </script>
+    
+</body>
+
+</html>
